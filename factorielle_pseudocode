@@ -1,0 +1,8 @@
+n <- demander saisir valeur
+Afficher "Factorielle de n est " + fact(n)
+
+fonction fact(n: entier): entier
+    Si n = 1 Alors
+        retourne n
+    Sinon
+        retourne n * fact(n - 1)
